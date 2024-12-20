@@ -9,8 +9,6 @@ class Solution:
         if s == '': return True
         if S > T: return False
 
-
-
         i,j = 0,0
 
         while i < S and j < T:
