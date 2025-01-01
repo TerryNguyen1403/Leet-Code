@@ -23,8 +23,8 @@ class Solution:
         t = ''.join(stack)
 
         return s == t
-    # Time: O(N)
-    # Space: O(N)
+    # Time: O(n+m)
+    # Space: O(n+m)
 
     # While loop with Space: O(1)
     def backspaceCompare2(self, s: str, t: str) -> bool:
@@ -65,3 +65,5 @@ class Solution:
             j -= 1
 
         return True
+        #Time: O(n+m)
+        #Space: O(1)
