@@ -20,7 +20,7 @@ class Solution:
 
         return False
 
-    #Recursion solution
+    #Recursive solution
     #Time: O(Log(n))
     #Space: O(Log(n))
     def isPerfectSquare2(self, num: int) -> bool:
