@@ -2,9 +2,9 @@ from PerfectSquare import Solution
 
 def main():
     solution = Solution()
-    num = 104976
+    num = 14
 
-    result = solution.isPerfectSquare(num)
+    result = solution.isPerfectSquare2(num)
     print(result)
 
 if __name__ == '__main__':
